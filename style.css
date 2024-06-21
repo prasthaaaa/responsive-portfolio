@@ -1,6 +1,9 @@
 *{
     margin:0;
     padding:0 0 0 0;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 a{
  text-decoration: none;
@@ -9,16 +12,63 @@ ul{
     list-style: none;
 }
 header{
-    margin: 3rem 2rem;
+    margin: 1rem 9em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 900;
+   
+}
+/* navigation logo*/
+.nav-logo{
+color: rgb(11, 98, 117);
+    font-size:  2rem;
+    font-weight: 800;
+}
+.nav-logo:hover{
+    color: blueviolet;
 }
 .nav-items{
     display:flex;
     
 }
 .nav-item{
-    margin-right: 1rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    
+}
+.nav-item a{
+    color: rgb(250, 29, 29);
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: black;
+}
+/* about me section */
+main{
+    margin: 1em 9em;
+}
+.name{
+    color: rgb(205, 31, 228);
+}
+.about-me{
+    font-size: 3em;
+    font-weight: 600;
+    
+}
+/* contact button */
+.contact-button{
+    font-weight: 600;
+    font-size: 0.5em;
+    background-color: rgb(38, 38, 99);
+    color: aliceblue;
+    padding: 0.5em 2em ;
+    border-radius: 1.1em;
+/* kept inline block cause we couldnt use margin for inline elements style we 
+converted inline to block level */
+    display:inline-block;
+}
+.my-social{
+    font-size: 2rem;
+    color: black;
+    padding: 0 0.2em 0 0;
 }
